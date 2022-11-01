@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>About me!</h1>
+    <p class="Info">
+      My name is Mohtasim Alam Sohom. I'm 14 years old. I'm single. I live in
+      Tangail, Dhaka, Bangladesh. I love playing games, coding, sleeping, my
+      parents, Allah, Prophet Mohammud, riding. I hate toxic friends, scammers,
+      fishes, maths, school. My hobby is music. My favourite color is
+      <b class="Aqua">Aqua</b>. My favourite food is "Kacchi Biriyani". My
+      birthday 28 April.
+    </p>
+    <h1 class="friends">Friends</h1>
+    <h2 class="sorry">Sorry, friend list insn't available here</h2>
+    <h2 class="frnds-btn">Click the button for redirecting to new page</h2>
+    <button
+      class="FriendsButton"
+      onclick="Redirect('http://localhost:3000/friends')"
+    >
+      Friends
+    </button>
+    <script>
+      function Redirect(url) {
+        window.location.href = url;
+      }
+    </script>
+  </body>
+</html>
