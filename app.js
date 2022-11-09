@@ -10,6 +10,9 @@ app.get("/friends", (req, res) => {
 app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/views/about.html");
 });
+app.get("/github", (req, res) => {
+  res.sendFile(__dirname + "/views/github.html");
+});
 app.use(express.static(__dirname + "/views"));
 app.use((req, res) => {
   res.sendFile(__dirname + "/views/not-found.html");
